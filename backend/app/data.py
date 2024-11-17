@@ -16,8 +16,7 @@ EXPIRED_LIST_EXPIRY_CYCLE_LENGTH = (
     10  # Number of main loop cycles to leave expired values in the cache
 )
 
-# EXPIRY_OFFSET = 60 * 60 * 24  # Number of seconds a report stays valid
-EXPIRY_OFFSET = 15
+EXPIRY_OFFSET = 60 * 60 * 24  # Number of seconds a report stays valid
 
 # Must be square and have an even size (4, 6, 8, etc.)
 MOOD_GRID: list[list[str]] = [
